@@ -1,0 +1,13 @@
+const myBase = "serious_db";
+use(myBase);
+
+db.Mod.insertOne({
+    displayName: "GvMod",
+    slave: "Reboot",
+    publishDate: new Date()
+});
+
+db.Mod.insertOne({
+    pain: true,
+    since: new Date()
+})

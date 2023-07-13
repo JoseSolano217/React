@@ -1,0 +1,14 @@
+npm i...
+cors
+morgan
+express
+mongoose
+jsonwebtoken
+bcryptjs
+dotenv --save-dev
+nodemon --save-dev
+@types/cors --save-dev
+@types/morgan --save-dev
+@types/jsonwebtoken --save-dev
+
+tsc --init
